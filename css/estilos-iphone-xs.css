@@ -1,6 +1,5 @@
-@charset "utf-8";
-/* CSS Document */
-/*-----------------------------------------------------------------------------------------
+<style>
+			/*-----------------------------------------------------------------------------------------
 				Fonts de Apple
 			------------------------------------------------------------------------------------------*/
 			@font-face {font-family:'SF Pro Display';font-style:normal;font-weight:100;src:local('☺︎'), url("https://www.apple.com/wss/fonts/SF-Pro-Display/v2/sf-pro-display_ultralight.woff2") format("woff2"), url("https://www.apple.com/wss/fonts/SF-Pro-Display/v2/sf-pro-display_ultralight.woff") format("woff"), url("https://www.apple.com/wss/fonts/SF-Pro-Display/v2/sf-pro-display_ultralight.ttf") format("truetype");/* (C) 2015 Apple Inc. All rights reserved.*/}
@@ -607,8 +606,8 @@
 				    background-image: url(http://media.aws.alkosto.com/media/ALKOSTO/celulares/iphone/xs/EAN_iphonexs_hero_top_device_large.jpg);
 				    -webkit-mask-repeat: no-repeat;
 				    mask-repeat: no-repeat;
-				    -webkit-mask-image: url(http://media.aws.alkosto.com/media/ALKOSTO/celulares/iphone/xs/EAN_iphonexs_hero_top_device_large.svg);
-				    mask-image: url(http://media.aws.alkosto.com/media/ALKOSTO/celulares/iphone/xs/EAN_iphonexs_hero_top_device_large.svg);
+				    -webkit-mask-image: url(http://media.aws.alkosto.com/media/ALKOSTO/celulares/iphone/xs/EAN_iphonexs_hero_top_device_large.png);
+				    mask-image: url(http://media.aws.alkosto.com/media/ALKOSTO/celulares/iphone/xs/EAN_iphonexs_hero_top_device_large.png);
 				}
 
 				.section-hero .hero-lockup .inline-video-media .hero-animation-top-device .band-reflection {
@@ -642,7 +641,7 @@
 				    height: 28px;
 				    background-size: 167px 28px;
 				    background-repeat: no-repeat;
-				    background-image: url(http://media.aws.alkosto.com/media/ALKOSTO/celulares/iphone/xs/EAN_iphonexs_hero_logo_large.svg);
+				    background-image: url(http://media.aws.alkosto.com/media/ALKOSTO/celulares/iphone/xs/EAN_iphonexs_hero_logo_large.png);
 				    margin: 0 auto -28px auto;
 				}
 
@@ -753,8 +752,8 @@
 				    background-image: url(http://media.aws.alkosto.com/media/ALKOSTO/celulares/iphone/xs/EAN_iphonexs_hero_top_device_medium.jpg);
 				    -webkit-mask-repeat: no-repeat;
 				    mask-repeat: no-repeat;
-				    -webkit-mask-image: url(http://media.aws.alkosto.com/media/ALKOSTO/celulares/iphone/xs/EAN_iphonexs_hero_top_device_mask_medium.svg);
-				    mask-image: url(http://media.aws.alkosto.com/media/ALKOSTO/celulares/iphone/xs/EAN_iphonexs_hero_top_device_mask_medium.svg);
+				    -webkit-mask-image: url(http://media.aws.alkosto.com/media/ALKOSTO/celulares/iphone/xs/EAN_iphonexs_hero_top_device_mask_medium.png);
+				    mask-image: url(http://media.aws.alkosto.com/media/ALKOSTO/celulares/iphone/xs/EAN_iphonexs_hero_top_device_mask_medium.png);
 				}
 				.section-hero .hero-lockup .inline-video-media .hero-animation-top-device .band-reflection{
 					    background-repeat: no-repeat;
@@ -809,7 +808,7 @@
 				    overflow: hidden;
 				}
 				.section-hero .hero-lockup .inline-video-media{
-					top: 60px;
+					top: 1800px;
     				left: calc(50vw - 74px);
 				}
 				.section-hero .hero-lockup .inline-video-media>*{
@@ -1150,3 +1149,5 @@
 					max-width: 360px;
 				}
 			}
+			 .contenedor{ float:left; width:100%; margin:auto; background: #000000; font:'Raleway', sans-serif; } iframe { 	width:100%; height:1300px;} .imagenesiphonexs { width:100%; margin:auto;} } @media only screen and (max-width: 480px) { .contenedor{ 	width:100%; max-width:400px; float:left;} 	 iframe { max-width:350px; width:100%; height:800px;} }
+		</style>
